@@ -1,0 +1,37 @@
+2025-01-29 19:12:58,644 - INFO - Telegram scraper started successfully.
+2025-01-29 19:12:58,688 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-01-29 19:13:00,143 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-01-29 19:13:09,031 - INFO - Phone migrated to 4
+2025-01-29 19:13:09,171 - INFO - Reconnecting to new data center 4
+2025-01-29 19:13:09,330 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-01-29 19:13:09,331 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-01-29 19:13:09,331 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-01-29 19:13:10,869 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-01-29 19:13:23,879 - INFO - Scraped 100 messages from https://t.me/DoctorsET
+2025-01-29 19:13:24,358 - INFO - Scraped 76 messages from https://t.me/CheMed123
+2025-01-29 19:13:24,890 - INFO - Scraped 100 messages from https://t.me/lobelia4cosmetics
+2025-01-29 19:13:25,567 - INFO - Scraped 100 messages from https://t.me/yetenaweg
+2025-01-29 19:13:26,331 - INFO - Scraped 100 messages from https://t.me/EAHCI
+2025-01-29 19:13:26,369 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-01-29 19:13:26,369 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-01-29 19:15:35,349 - INFO - Telegram scraper started successfully.
+2025-01-29 19:15:35,378 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-01-29 19:15:35,500 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-01-29 19:15:36,933 - INFO - Scraped 100 messages from https://t.me/DoctorsET
+2025-01-29 19:15:37,668 - INFO - Scraped 76 messages from https://t.me/CheMed123
+2025-01-29 19:15:38,258 - INFO - Scraped 100 messages from https://t.me/lobelia4cosmetics
+2025-01-29 19:15:38,846 - INFO - Scraped 100 messages from https://t.me/yetenaweg
+2025-01-29 19:15:39,827 - INFO - Scraped 100 messages from https://t.me/EAHCI
+2025-01-29 19:15:39,837 - INFO - Messages saved successfully!
+2025-01-29 19:36:55,804 - INFO - Telegram scraper started successfully.
+2025-01-29 19:36:55,835 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-01-29 19:36:55,937 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-01-29 19:36:57,211 - INFO - Scraped 100 messages from https://t.me/DoctorsET
+2025-01-29 19:36:57,650 - INFO - Scraped 76 messages from https://t.me/CheMed123
+2025-01-29 19:36:58,098 - INFO - Scraped 100 messages from https://t.me/lobelia4cosmetics
+2025-01-29 19:36:58,619 - INFO - Scraped 100 messages from https://t.me/yetenaweg
+2025-01-29 19:36:59,190 - INFO - Scraped 100 messages from https://t.me/EAHCI
+2025-01-29 19:36:59,196 - INFO - Messages saved successfully!
+2025-01-29 19:36:59,196 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-01-29 19:36:59,197 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+

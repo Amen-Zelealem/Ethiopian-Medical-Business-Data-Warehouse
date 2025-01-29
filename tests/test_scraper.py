@@ -18,6 +18,10 @@ class TestScraping(unittest.TestCase):
         self.assertTrue(os.path.exists(text_file), "Text data file does not exist")
         self.assertGreater(os.path.getsize(text_file), 0, "Text data file is empty")
 
-    
+    def test_image_folder_exists(self):
+        """Check if the image folder exists and contains at least one file"""
+        image_folder = os.getenv("IMAGE_FOLDER")
+        self.assertTrue(os.path.exists(image_folder), "Image folder does not exist")
+
 if __name__ == "__main__":
     unittest.main()
