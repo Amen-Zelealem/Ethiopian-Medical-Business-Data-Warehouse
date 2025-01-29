@@ -12,3 +12,8 @@ ethiopian-medical-data-warehouse
 # data
 # ========================
 data
+
+# ========================
+# Cache Files
+# ========================
+__pycache__
