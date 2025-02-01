@@ -6,7 +6,6 @@ ethiopian-medical-data-warehouse
 # ========================
 # .env file
 # ========================
-.env
 
 # ========================
 # data
@@ -17,3 +16,5 @@ data
 # Cache Files
 # ========================
 __pycache__
+config.bat
+node_modules
