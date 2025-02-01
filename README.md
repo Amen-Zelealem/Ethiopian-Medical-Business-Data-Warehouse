@@ -2,6 +2,63 @@
 
 A comprehensive data warehouse project for scraping, cleaning, and analyzing Ethiopian medical business data from Telegram channels. This project includes data collection pipelines, data transformation using DBT, object detection with YOLO, and a FastAPI interface for data access.
 
+# Project Structure
+
+```
++---.github
+| └── workflows
+| └── blank.yml
++---.vscode
+| └── settings.json
++---api
+| ├── init.py
++---Medical_Business_Data_Warehouse
+| | ├── analyses
+| | ├── dbt_packages
+| | ├── logs
+| | | ├── dbt.log
+| | ├── macros
+| | ├── models
+| | | ├── example
+| | | | ├── aggregate_messages_by_channel.sql
+| | | | ├── calculate_message_length.sql
+| | | | ├── convert_text_date_to_message_date.sql
+| | | | ├── filter_messages_with_emojis.sql
+| | | | ├── raw_messages.sql
+| | | | ├── schema.yml
+| | | | ├── select_cleaned_data.sql
+| | | | ├── transformed_messages.sql
+| | ├── seeds
+| | ├── snapshots
+| | ├── target
+| | ├── tests
+| └── .gitignore
+| └── dbt_project.yml
+| └── README.md
++---notebooks
+| ├── init.ipynb
+| ├── data_cleaning.ipynb
+| └── README.md
+| └── telegram_message_scrapper.ipynb
++---scripts
+| ├── init.py
+| └── README.md
+| ├── data_cleaning.py
+| ├── database_setup.py
+| ├── image_scraper.py
+| ├── telegram_scraper.py
++---src
+| └── README.md
+| └── init.py
++---tests
+| └── init.py
+| ├── README.md
+| └── test_scraper.py
+| ├── .gitignore
+| ├── LICENSE
+| ├── README.md
+| └── requirements.txt
+```
 
 # **Task 1: Data Scraping and Collection Pipeline**
 
@@ -46,30 +103,3 @@ The following Telegram channels will be targeted for data scraping:
 
 ## **Conclusion**
 Upon completion of this task, the pipeline will effectively scrape and collect data from the specified Telegram channels, providing valuable insights into Ethiopian medical businesses. The collected data will be stored for further analysis and potential machine learning applications.
-
-
-# Project Structure
-
-```
-+---.github
-| └── workflows
-| └── blank.yml
-+---.vscode
-| └── settings.json
-+---notebooks
-| ├── init.ipynb
-| └── README.md
-+---scripts
-| ├── init.py
-| └── README.md
-+---src
-| └── README.md
-| └── init.py
-+---tests
-| └── init.py
-| ├── README.md
-| ├── .gitignore
-| ├── LICENSE
-| ├── README.md
-| └── requirements.txt
-```
