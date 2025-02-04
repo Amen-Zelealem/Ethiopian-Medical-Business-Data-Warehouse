@@ -6,7 +6,6 @@ ethiopian-medical-data-warehouse
 # ========================
 # .env file
 # ========================
-.env
 
 # ========================
 # data
@@ -23,3 +22,5 @@ __pycache__
 # Cache Files
 # ========================
 yolov5
+config.bat
+node_modules
