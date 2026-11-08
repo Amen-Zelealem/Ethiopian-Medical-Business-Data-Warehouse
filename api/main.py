@@ -1,3 +1,4 @@
+import utils.session
 from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
 from api import crud, models, schemas
